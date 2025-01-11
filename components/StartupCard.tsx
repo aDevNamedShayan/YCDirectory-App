@@ -19,8 +19,6 @@ const StartupCard = ({ post }: { post: StartupTypeCard }) => {
     description,
   } = post;
 
-  console.log(_createdAt)
-
   return (
     <li className="startup-card group">
       <div className="flex-between">
